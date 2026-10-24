@@ -14,7 +14,7 @@ menubtn.addEventListener("click",()=>{
     menubtn.textContent='ⅹ'
     menubtn.style.color="black"
     menubtn.style.borderStyle="solid"
-             
+    menubtn.style.zIndex="1000"      
     }else{
     menubtn.style.left='1em'
      menubtn.style.backgroundColor='red'
